@@ -7,12 +7,12 @@
 class Invoicr{
 	/* [INVOICE DATA] */
 	// YOUR COMPANY DATA - CHANGE THIS TO YOUR OWN
-	// FIRST ONE IS THE URL PATH TO THE COMPANY LOGO - USED IN HTML GENERATION
-	// SECOND IS THE ABSOLUTE FILE PATH TO THE COMPANY LOGO - USED IN PDF/DOCX GENERATION
+	// FIRST ONE IS THE ABSOLUTE FILE PATH TO THE COMPANY LOGO - USED IN PDF/DOCX GENERATION
+	// SECOND IS THE URL PATH TO THE COMPANY LOGO - USED IN HTML GENERATION
 	// FOLLOWED BY COMPANY NAME, ADDRESS, CONTACT, WHATEVER YOU WANT TO ADD
 	private $company=[
-		"http://your-site.com/cb-logo.png",
 		"/var/http/your-site.com/cb-logo.png",
+		"http://your-site.com/cb-logo.png",
 		"Company Name", 
 		"Street Address, City, State, Zip",
 		"Phone: xxx-xxx-xxx | Fax: xxx-xxx-xxx",
